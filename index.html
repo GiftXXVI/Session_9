@@ -1,40 +1,125 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+	<title>reveal.js</title>
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/blood.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-markdown>
+				<script type="text/template">
+					## Recap
+				</script>
+			</section>
+			<section data-markdown>
+				<script type="text/template">
+						#### Which of the following is not a common attack on plain text passwords?
+
+						1. Bad actors
+						2. Rainbow table
+						3. Bad backup security
+						4. SQL injection
+
+					</script>
+			</section>
+			<section data-markdown>
+				<script type="text/template">
+						#### Which of the following is not a way to mitigate brute force attack?
+
+						1. Prevent or ratelimit multiple incorrect login attempts
+						2. Enforce a reasonable password policy
+						3. Use SSL based communication
+						4. Safely log and monitor for attack						
+
+					</script>
+			</section>
+			<section data-markdown>
+				<script type="text/template">
+						#### Which of the following is a form of encryption using 2 keys?
+
+						1. Hashing
+						2. Salting
+						3. Symmetrical encryption
+						4. Asymmetrical encryption											
+
+					</script>
+			</section>
+			<section data-markdown>
+				<script type="text/template">
+						#### Which is not an example of a risk associated with encryption keys?
+
+						1. Bad actors
+						2. Bad logging
+						3. MITM - Man In The Middle
+						4. Bad ORM/Serializers
+										
+					</script>
+			</section>
+
+			<section data-markdown>
+				<script type="text/template">
+						#### What is a one-way function that jumbles text in only one direction and  eliminates the key and the ability to go backwards to the original string?
+
+						1. Hashing
+						2. Encryption
+						3. Decryption
+						4. Salting						
+										
+					</script>
+			</section>
+			<section data-markdown>
+				<script type="text/template">
+						#### Which is not a hashing function?
+
+						1. bcrypt
+						2. scrypt
+						3. RSA
+						4. MD5
+								
+					</script>
+			</section>
+
+			<section data-markdown>
+				<script type="text/template">
+						#### What is an attack that hashes commonly used passwords and generates the hash-password key-value pair?
+
+						1. Hashing
+						2. Rainbow table
+						3. Brute force
+						4. Salting						
+								
+					</script>
+			</section>
 		</div>
+	</div>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
 </html>
