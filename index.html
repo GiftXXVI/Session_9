@@ -13,6 +13,11 @@
 
 	<!-- Theme used for syntax highlighted code -->
 	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+		crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -136,6 +141,42 @@
 					- **Least privilege** means that a user has precisely the amount of
 					privilege that is necessary to perform a job.
 				</section>
+				<section data-markdown>
+					## RBAC Terms
+					- Scope: Defines where the role can work
+					- Role: A special identity for running privileged applications. It is also a collection of
+					permissions
+					that you can apply to users. This special identity can be assumed by assigned users only.
+					- Permissions: What the users are allowed to do i.e read:articles, delete:articles
+				</section>
+				<section data-markdown>
+					## Benefits of RBAC
+					- create systematic, repeatable assignment of permissions
+					- easily audit user privileges and correct identified issues
+					- quickly add and change roles, as well as implement them across APIs
+				</section>
+				<section data-markdown>
+					## Benefits of RBAC
+					- cut down on the potential for error when assigning user permissions
+					- integrate third-party users by giving them predefined roles
+					- more effectively comply with regulatory and statutory requirements for confidentiality and privacy
+				</section>
+				<section data-markdown>
+					### For an implementation, please look at our session from [Week
+					7](https://github.com/GiftXXVI/S7_Notebook)
+				</section>
+			</section>
+			<section>
+				<section data-markdown>
+					### Alternative Attack Vectors
+				</section>
+				<section data-markdown>
+					### The Weakest Link
+					>> After you have secured your application, bad actors will go for the weakest link in your system and that is the user.
+				</section>
+			</section>
+			<section>
+				
 			</section>
 		</div>
 	</div>
