@@ -23,7 +23,7 @@
 <body>
 	<div class="reveal">
 		<div class="slides">
-			<section>
+			<section data-background="images/Pattern0.svg">
 				<section data-markdown>
 					## 💻🖥
 					## FULL STACK WEB DEVELOPER NANODEGREE
@@ -31,18 +31,24 @@
 					#### 🖱⌨ GIFT CHIMPHONDA
 				</section>
 			</section>
-			<section>
+			<section data-background="images/Pattern1.svg">
 				<section data-markdown>
 					## 📑 CONTENTS
 				</section>
 				<section data-markdown>
-					1. RECAP
-					2. ROLE-PERMISSION BASED ACCESS
-					3. ALTERNATIVE ATTACK VECTORS
-					4. NEXT STEPS
+					### 1. RECAP  
+				</section>
+				<section data-markdown>
+					### 2. ROLE-PERMISSION BASED ACCESS
+				</section>
+				<section data-markdown>
+					### 3. ALTERNATIVE ATTACK VECTORS
+				</section>
+				<section data-markdown>
+					### 4. NEXT STEPS
 				</section>
 			</section>
-			<section>
+			<section data-background="images/Pattern2.svg">
 				<section data-markdown>
 					<script type="text/template">
 					## 📽RECAP
@@ -50,7 +56,7 @@
 				</section>
 				<section data-markdown>
 					<script type="text/template">
-						#### Which of the following is not a common attack on plain text passwords?
+						**Which of the following is not a common attack on plain text passwords?**
 
 						1. Bad actors
 						2. Rainbow table
@@ -61,9 +67,9 @@
 				</section>
 				<section data-markdown>
 					<script type="text/template">
-						#### Which of the following is not a way to mitigate brute force attack?
+						**Which of the following is not a way to mitigate brute force attack?**
 
-						1. Prevent or ratelimit multiple incorrect login attempts
+						1. Ratelimit multiple incorrect login attempts
 						2. Enforce a reasonable password policy
 						3. Use SSL based communication
 						4. Safely log and monitor for attack						
@@ -72,7 +78,7 @@
 				</section>
 				<section data-markdown>
 					<script type="text/template">
-						#### Which of the following is a form of encryption using 2 keys?
+						**Which of the following is a form of encryption using 2 keys?**
 
 						1. Hashing
 						2. Salting
@@ -83,7 +89,7 @@
 				</section>
 				<section data-markdown>
 					<script type="text/template">
-						#### Which is not an example of a risk associated with encryption keys?
+						**Which is not an example of a risk associated with encryption keys?**
 
 						1. Bad actors
 						2. Bad logging
@@ -95,7 +101,7 @@
 
 				<section data-markdown>
 					<script type="text/template">
-						#### What is a one-way function that jumbles text in only one direction and  eliminates the key and the ability to go backwards to the original string?
+						**What is a one-way function that jumbles text in only one direction only?**
 
 						1. Hashing
 						2. Encryption
@@ -106,7 +112,7 @@
 				</section>
 				<section data-markdown>
 					<script type="text/template">
-						#### Which is not a hashing function?
+						**Which is not a hashing function?**
 
 						1. bcrypt
 						2. scrypt
@@ -118,7 +124,7 @@
 
 				<section data-markdown>
 					<script type="text/template">
-						#### What is an attack that hashes commonly used passwords and generates the hash-password key-value pair?
+						**What is an attack that hashes commonly used passwords and generates the hash-password key-value pair?**
 
 						1. Hashing
 						2. Rainbow table
@@ -128,12 +134,12 @@
 					</script>
 				</section>
 			</section>
-			<section>
+			<section data-background="images/Pattern3.svg">
 				<section data-markdown>
-					## ROLE BASED ACCESS CONTROL
+					## 🛡ROLE BASED ACCESS CONTROL
 				</section>
 				<section data-markdown>
-					## What is RBAC?
+					### What is RBAC?
 					- Role-Based Access Control (RBAC) is a method of restricting network access based on the roles of
 					individual users
 					- With RBAC, you can enforce security policy at a more fine-grained level. RBAC uses the security
@@ -142,7 +148,7 @@
 					privilege that is necessary to perform a job.
 				</section>
 				<section data-markdown>
-					## RBAC Terms
+					### RBAC Terms
 					- Scope: Defines where the role can work
 					- Role: A special identity for running privileged applications. It is also a collection of
 					permissions
@@ -150,34 +156,54 @@
 					- Permissions: What the users are allowed to do i.e read:articles, delete:articles
 				</section>
 				<section data-markdown>
-					## Benefits of RBAC
+					### Benefits of RBAC
 					- create systematic, repeatable assignment of permissions
 					- easily audit user privileges and correct identified issues
 					- quickly add and change roles, as well as implement them across APIs
 				</section>
 				<section data-markdown>
-					## Benefits of RBAC
+					### Benefits of RBAC
 					- cut down on the potential for error when assigning user permissions
 					- integrate third-party users by giving them predefined roles
 					- more effectively comply with regulatory and statutory requirements for confidentiality and privacy
-				</section>
-				<section data-markdown>
-					### For an implementation, please look at our session from [Week
-					7](https://github.com/GiftXXVI/S7_Notebook)
+					**We had an implementation in [🔗Session 7](https://github.com/GiftXXVI/S7_Notebook)**
 				</section>
 			</section>
-			<section>
+			<section data-background="images/Pattern4.svg">
 				<section data-markdown>
-					### Alternative Attack Vectors
+					## 💣Alternative Attack Vectors
 				</section>
 				<section data-markdown>
 					### The Weakest Link
-					>> After you have secured your application, bad actors will go for the weakest link in your system and that is the user.
+					**After you have secured your application, bad actors will go for the weakest link in your system
+					and that is the user.**
+				</section>
+				<section data-markdown>
+					### SOCIAL ENGINEERING
+					- Social engineering attacks use a combination of psychological manipulation and malware to gain
+					access to systems or data or to gain elevated access to the system or its sensitive data.
+					**Here is an interactive [🔗Demo](https://www.cssia.org/social_engineering/)**
+				</section>
+				<section data-markdown>
+					### PHISHING
+					- Phishing is a kind of social engineering attack where a bad actor sends an email purporting to be
+					from a legitimate source that tricks the user into providing sensitive information.
+					**Here is an interactive [🔗Demo](https://www.hacksplaining.com/exercises/email-spoofing)**
 				</section>
 			</section>
-			<section>
-				
+			<section data-background="images/Pattern5.svg">
+				<section data-markdown>
+					## 🧱 What Next?
+				</section>
+				<section data-markdown>
+					### Server Deployment and Containerization
+					- Containers
+					- implementation in Docker
+				</section>
 			</section>
+			<section data-markdown data-background="images/Pattern6.svg">## Questions 💬</section>
+			<section data-markdown data-background="images/Pattern7.svg">## Feedback 🖊</section>
+			<section data-markdown data-background="images/Pattern8.svg">## The End 🏁</section>
 		</div>
 	</div>
 
